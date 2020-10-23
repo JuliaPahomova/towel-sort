@@ -1,13 +1,5 @@
 module.exports = function towelSort (matrix) {
-    /*const matrix = [
-        [1, 2, 3, 4],
-        [5, 6, 7, 8],
-        [9, 10, 11, 12],
-    ];
-
-console.log(towelSort (matrix));
-
-function towelSort (matrix) {*/
+  if(!matrix) return [];
     const arr = [];
     const arr1 = [];
     for(let i = 0; i < matrix.length; i++) {
@@ -22,5 +14,4 @@ function towelSort (matrix) {*/
     }
     return (arr1);
 }
-
 
